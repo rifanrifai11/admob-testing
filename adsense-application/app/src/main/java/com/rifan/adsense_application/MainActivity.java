@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-9336656000959615/4324404613");
         mInterstitialAd.loadAd(new AdRequest.Builder()
-                .addTestDevice("82F617467912677B7C6DDD13094C2CE3")
+//                .addTestDevice("82F617467912677B7C6DDD13094C2CE3")
                 .build());
 
         Button btnInterstitia = findViewById(R.id.btnInterstitial);

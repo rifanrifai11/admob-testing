@@ -31,7 +31,7 @@ public class AdmobBanner extends AppCompatActivity {
 
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("82F617467912677B7C6DDD13094C2CE3")
+//                .addTestDevice("82F617467912677B7C6DDD13094C2CE3")
                 .build();
         mAdView.loadAd(adRequest);
         mAdView.setAdListener(new AdListener() {
