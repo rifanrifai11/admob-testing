@@ -1,1 +1,4 @@
 # admobe
+
+Example mengenai 
+Banner
